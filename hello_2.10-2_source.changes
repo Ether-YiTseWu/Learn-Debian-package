@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 13 May 2019 20:06:50 +0200
+Source: hello
+Architecture: source
+Version: 2.10-2
+Distribution: jammy
+Urgency: medium
+Maintainer: Santiago Vila <sanvila@debian.org>
+Changed-By: Santiago Vila <sanvila@debian.org>
+Closes: 928887
+Changes:
+ hello (2.10-2) jammy; urgency=medium
+ .
+   * Fix version skew. Closes: #928887.
+   * Drop debian/compat and use new syntax to specify compat level.
+   * Standards-Version: 4.3.0 (no changes for this).
+   * Rules-Requires-Root: no
+Checksums-Sha1:
+ d392bb59b4e2b51014ba8398015179c447af75ae 1480 hello_2.10-2.dsc
+ 69726ba7daa93cb22e06b4c652dd7a66c536b4c7 6495 hello_2.10-2.diff.gz
+ b86c2adde15304009811416b36bde576f7130aa9 5215 hello_2.10-2_source.buildinfo
+Checksums-Sha256:
+ e51c672b7869c425e33d556e49578739c2f476eee73380279660d3ecce9d6d89 1480 hello_2.10-2.dsc
+ 691b86c8360bd6dabb658ee5417d6f51b442f079ab7ccfb22b94ab9ae8ab2f73 6495 hello_2.10-2.diff.gz
+ 9b5c881f88d8d2747eb64641c1d47534dd626db55f5ea70a9f13d8a0f9f06ea8 5215 hello_2.10-2_source.buildinfo
+Files:
+ 47c70ce32cd2ca491f7b797204e3db22 1480 devel optional hello_2.10-2.dsc
+ 48fefe04d5d3c2b613cbd14461bc0342 6495 devel optional hello_2.10-2.diff.gz
+ 59e6496702147f968de896d0963e9542 5215 devel optional hello_2.10-2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE0X1YZfBEhxk7ymlDeib3W/77Wn4FAmKrTfkACgkQeib3W/77
+Wn75LQwAqFAdYvl18ODqNl5pCpbgh+/+FaB+7tmSSYDs4AAOTUrCLzGC4f00CqQ3
+Q20EcjtdhaXhUI2wdyro5gR4INkrlNwPioVhBkb12d3vNG1CH9f+aaKjMV91JjhM
+/cShM9WAj+8dd/yeBNH3XnPed6IC9pVqVJEDEThq/W9FmEM3/YCdkqxQBh420k2m
+Ab94wKP9qVJxNLNhg6JozGVPEJ1Lranr8yzNDDXhOjHkWmK4HU66atra2Sw7/3L2
+OOfkPtfAKQWGNjEOE75hi2HTB9D7CtyI0+HDkBaNdZBTU9udA3XIfoxBjF0ACcG1
+MB+QVJo90Aewv1AwKrXoEXmWMxq90r5g4CDaPsT4YtyqvBojgXgxWYQyFmqRvYrs
+VmC04rJnXaKSpMjhmsG/MqfwCUBJ7OFUdhL+Wtk7vQRKRzf+T59r1gB7CjEyoMor
+79/ivTp+cb3tdGSGMHV97HaKBaUNF0RBNJsIC0d3dhWu0drKsQ8j+X/FQFMGSMpZ
+S+TzxH4S
+=nqLb
+-----END PGP SIGNATURE-----
